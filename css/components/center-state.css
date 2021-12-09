@@ -1,0 +1,12 @@
+#clock {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  font-size: 20vh;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgba(98, 0, 255, 0.2);
+}
