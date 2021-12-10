@@ -90,3 +90,37 @@ li button {
   border-radius: 50%;
   color: white;
 }
+#login-form {
+  position: relative;
+}
+#login-form button {
+  position: absolute;
+  right: 0;
+  nav-left: 20px;
+  width: 100px;
+  height: 41px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(80, 80, 80);
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+  outline: none;
+  cursor: pointer;
+  transition: all, 0.4s;
+}
+#login-form input {
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(80, 80, 80);
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
+  outline: none;
+  cursor: pointer;
+  transition: all, 0.4s;
+}
