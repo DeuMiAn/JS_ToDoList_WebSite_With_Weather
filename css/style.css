@@ -1,13 +1,92 @@
 @import "reset.css";
 /*components*/
 @import "components/background-image.css";
-@import "components/center-state.css";
 .hidden {
   display: none;
 }
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+#clock {
+  width: 50vw;
+  margin: 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 10vw;
+  color: whitesmoke;
+  font-weight: bold;
+}
+#greeting {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  align-self: start;
+  font-size: 10vw;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 50px;
+}
+#todo-form input {
+  width: 40vw;
+  height: 30px;
+  border-radius: 10px;
+}
+#quote {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
+  bottom: 40px;
+}
+#quote span {
+  border-radius: 20px;
+  margin: 7px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: italic;
+}
+#weather {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-weight: bold;
+  color: rgba(255, 202, 222, 0.884);
+}
+#todo-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 10px;
+  right: 10px;
+}
+#todo-list li {
+  margin: 5px 0px;
+  padding: 3px;
+  border-radius: 10px;
+  color: tomato;
+  background-color: rgba(100, 4, 255, 0.363);
+}
+#todo-list li span {
+  font-weight: 500;
+  font-size: 17px;
+  font-style: italic;
+  color: rgb(255, 209, 240);
+}
+li button {
+  margin-left: 10px;
+  background-color: tomato;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
 }

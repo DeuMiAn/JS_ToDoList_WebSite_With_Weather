@@ -1,12 +1,25 @@
 #clock {
-  margin-top: 10vh;
+  width: 50vw;
+  margin: 10vh 25vw 0 25vw;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   padding-bottom: 10px;
-  font-size: 20vh;
+  font-size: 10vw;
   color: whitesmoke;
   font-weight: bold;
   background-color: rgba(98, 0, 255, 0.2);
+}
+#login-form {
+  left: 0px;
+}
+#greeting {
+  left: 0px;
+}
+#todo-form {
+}
+#quote {
+  position: fixed;
+  bottom: 0;
 }
